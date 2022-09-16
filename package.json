@@ -1,0 +1,15 @@
+{
+  "name": "consultancy-landing-page",
+  "version": "1.2.1",
+  "description": "Fully responsive landing page of Mextra consultancy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "TailwindCSS"
+  ],
+  "author": "Pritam Pal",
+  "license": "ISC"
+}

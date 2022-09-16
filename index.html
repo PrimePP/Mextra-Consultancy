@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mextra | go beyond boundaries</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/321c451842.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo-p-favicon.png" type="image/x-icon">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind confuguration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            'sm': '320px',
+            'md': '768px',
+            'lg': '1024px',
+            'xl': '1280px',
+          },
+          extend: {
+           colors:{
+            mextraDark:'#96A0FF',
+            mextraLight: '#C9D8FF',
+            myGrey:'#7C7C7C',
+           },
+           fontFamily:{
+            cur:['Dancing Script', 'cursive'],
+            sansi:['Playfair Display', 'serif']
+
+           }
+          }
+        }
+      }
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="">
+    <!-- navigation menu -->
+    <nav class="bg-mextraDark flex  justify-between">
+      <div class="left-sect  ml-[2rem] ">
+        <h1 class="text-white tracking-wide text-3xl">Mextra</h1>
+      </div>
+      <div class="right-sect hidden md:block my-2">
+        <a href="#" class="mr-[20px] uppercase text-white hover:text-gray-600 hover:underline hover:underline-offset-[4px] text-[15px] font-medium">Home</a>
+        <a href="#" class="mr-[20px] uppercase text-white hover:text-gray-600 hover:underline hover:underline-offset-[4px] text-[15px] font-medium">Services</a>
+        <a href="#" class="mr-[20px] uppercase text-white hover:text-gray-600 hover:underline hover:underline-offset-[4px] text-[15px] font-medium">About Us</a>
+        <a href="#" class="mr-[20px] uppercase text-white hover:text-gray-600 hover:underline hover:underline-offset-[4px] text-[15px] font-medium">Contact Us</a>
+        <a href="#" class="mr-[20px] uppercase text-gray-800 text-[15px] px-4 py-1 bg-white rounded-full hover:bg-transparent hover:text-white hover:border-2">SignUp</a>
+      </div>
+      <div class="right-ham md:hidden mt-1 mr-4">
+        <i class="fa-solid fa-bars text-white text-xl"></i>
+      </div>
+    </nav>
+    <!-- hero section one -->
+    <section class="f-hero h-[460px]  lg:h-[515px] mb-[20px]">
+      <img src="./images/pic-1.jpg" alt="" class="h-[70vh] lg:h-[70vh] md:h-[70vh] sm:h-[70vh] w-screen">
+      
+      <div class="text-center lg:-mt-[340px] md:-mt-[380px] -mt-[390px]">
+        <h1 class="text-[3rem] font-sansi drop-shadow-xl md:text-[4rem] font-bold text-white ">We help you make your mark at global scale</h1>
+        <h3 class="text-[1rem] font-cur md:text-[2.4rem] text-white hover:animate-bounce">Let us help you get exposure</h3>
+        <img src="./images/badge.png" alt="" class="hidden lg:block animate-pulse h-[160px] w-[160px] mx-auto">
+      </div>
+    </section>
+    <!-- hero section two -->
+    <section class="s-hero my-[20px]">
+      <div class="s-title ">
+        <h1 class=" text-[2rem] md:text-[3.5rem] text-center font-bold font-sansi py-2">Facilities We Provide</h1>
+      </div>
+      <div class="cards h-[85%] px-20 my-[40px] grid grid-rows-1 lg:grid-rows-2 lg:grid-cols-3 md:grid-rows-3 md:grid-cols-2 gap-20">
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">24/7 Live Support</div>
+          <div class="card-descp text-center font-cur px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">SEO</div>
+          <div class="card-descp text-center font-cur  px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">Developer</div>
+          <div class="card-descp text-center font-cur  px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">Audio Engineers</div>
+          <div class="card-desp text-center font-cur px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">Videography</div>
+          <div class="card-descp text-center font-cur  px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+        <div class="card bg-mextraLight py-[60px] rounded-[30px] drop-shadow-[5px_5px_10px_rgba(0,0,0,0.35)]">
+          <div class="card-heading text-center font-sansi text-[1.5rem] md:text-[2.2rem] mb-[40px]">Designers</div>
+          <div class="card-descp text-center font-cur  px-[30px] font-[30rem]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, tenetur sequi. Fugit ipsam deleniti vitae expedita saepe laudantium labore perferendis, blanditiis aut non odio facilis ratione enim ab aliquam voluptatibus? Aut odit officia autem adipisci voluptatibus consequatur ratione earum quas. </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section three -->
+    <section class="t-hero h-[530px] md:h-[600px] lg:h-[620px] mb-[20px] ">
+      <div class="t-title ">
+        <h1 class="text-[2rem] md:text-[3.5rem] text-center font-bold font-sansi py-2">Our History</h1>
+      </div>
+      <div>
+        <img src="./images/pexels-kehn-hermano-3667564.jpg" alt="" class="h-[70vh] lg:h-[70vh] md:h-[70vh] sm:h-[70vh] w-screen">
+        <p class="font-cur text-[.5rem] sm:text-[.56rem]  md:text-[.8rem] lg:text-[1.2rem] text-white -mt-[440px] sm:-mt-[360px] lg:-mt-[400px] px-[40px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet earum architecto ex! Reprehenderit consequatur dignissimos culpa mollitia. Ipsam voluptatum, laboriosam numquam blanditiis vel repellendus quas modi ad nesciunt dolorem temporibus ipsum accusantium corporis cumque corrupti illum dicta impedit reiciendis quod minus sequi ut ex? Odio nostrum nemo maiores repellat quia sapiente rerum? Laborum excepturi ipsum impedit doloremque, eius illum nihil sit adipisci quas illo iure molestiae reprehenderit laboriosam. Repellat nihil ducimus labore porro ratione, veniam voluptatum neque vel praesentium eos perspiciatis adipisci nesciunt cum sed eum saepe rem est exercitationem corporis optio ex, vitae tempore id! Libero cupiditate hic similique, eius inventore, asperiores dignissimos, corrupti illo repellendus totam explicabo ducimus. Id nesciunt voluptatibus a, reiciendis neque voluptatum. Cupiditate officia nobis temporibus architecto ratione pariatur animi quis, sapiente atque. Iste, quisquam velit iure, fugit asperiores praesentium similique nobis sunt dignissimos laborum, optio possimus delectus! Tenetur ratione nisi fuga. Eaque est, qui accusantium error aut reiciendis maxime cum omnis consequuntur non ab, blanditiis, fugiat sed. Aut quas aperiam non eligendi in sed impedit harum repellendus mollitia ea ipsa saepe culpa libero facilis perferendis neque fuga aliquid, odio aliquam. Ex dolore, praesentium minus, tempore adipisci placeat, exercitationem impedit necessitatibus molestiae nobis aut numquam nostrum corrupti nam. Et soluta eius cumque beatae, odit officia expedita molestiae iusto quidem, voluptates accusantium debitis optio iste. Eligendi illum, odio nam a, reiciendis vitae illo, culpa eum recusandae dicta animi? Neque non sint reiciendis ipsam natus suscipit deserunt quia accusamus, quas fugiat nisi eveniet vel! Vel odit illo architecto voluptatem dicta, odio nihil dolore sapiente earum dignissimos voluptas cumque, vero ea ipsum. Debitis unde ducimus quo, eum voluptatum repudiandae, natus optio saepe molestiae alias reiciendis veniam repellat provident quae, facere quam! Optio ea adipisci cum quod, nisi dolore ducimus quasi debitis commodi similique, ut sint quaerat libero. </p>
+      </div>
+    </section>
+    <!-- hero section four -->
+    <section class="four-hero mb-[20px]">
+      <div class="four-title ">
+        <h1 class="text-[2rem] md:text-[3.5rem] text-center font-bold font-sansi py-2">Blog</h1>
+      </div>
+      <div class="blog-card py-10 px-[80px]  grid grid-rows-5 md:grid-rows-3 md:grid-cols-2 lg:grid-rows-3 lg:grid-cols-4  justify-center gap-10" >
+        <div class="blog-card drop-shadow-lg hover:rotate-6 col-span-2 md:col-span-1 lg:col-end-2 lg:col-start-1 lg:col-end-4">
+          <img src="./images/pic-2.jpg" alt="" class="h-[300px] w-[100%]">
+        </div>
+        <div class="blog-card drop-shadow-lg hover:-rotate-6 col-span-2 md:col-span-1 lg:col-end-4 lg:col-start-4 lg:col-end-5">
+          <img src="./images/pic-3.jpg" alt="" class="h-[300px] w-[100%]">
+        </div>
+        <div class="blog-card drop-shadow-lg hover:-rotate-[4deg] col-span-2 md:col-span-1  lg:col-span-full">
+          <img src="./images/pic-7.jpg" alt="" class="h-[300px] w-[100%]">
+        </div>
+        <div class="blog-card drop-shadow-lg hover:-rotate-6 col-span-2 md:col-span-1 lg:col-start-1 lg:col-end-1">
+          <img src="./images/pic-5.jpg" alt="" class="h-[300px] w-[100%]">
+        </div>
+        <div class="blog-card drop-shadow-lg hover:rotate-6 col-span-2 md:col-span-full  lg:col-start-2 lg:col-end-5">
+          <img src="./images/pic-6.jpg" alt="" class="h-[300px] w-[100%]">
+        </div>
+        
+      </div>
+    </section>
+    <!-- hero section five -->
+    <section class="f-hero mb-[40px]">
+      <div class="five-title ">
+        <h1 class="text-[2rem] md:text-[3.5rem] text-center font-bold font-sansi py-2">Let's Talk</h1>
+      </div>
+      <div class="">
+        <form class="my-[40px]">
+          <input type="text" placeholder="Please enter your name" class="block mx-auto mb-[20px] py-[5px] px-[1rem] sm:px-[5rem] md:px-[14rem] text-[10px] md:text-[14px] border-2 border-gray-300 rounded-[30px]">
+          <input type="email" placeholder="Please enter your email" class="block mx-auto mb-[20px] py-[5px] px-[1rem] sm:px-[5rem] md:px-[14rem] text-[10px] md:text-[14px] border-2 border-gray-300 rounded-[30px]">
+          <input type="phone" placeholder="Please enter your phone-number" class="block mx-auto mb-[20px] py-[5px] px-[1rem] sm:px-[5rem] md:px-[14rem] text-[10px] md:text-[14px] border-2 border-gray-300 rounded-[30px]">
+          <button class="block mt-[40px] bg-gray-500 py-1 px-5 mx-auto text-white rounded-[10px]">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-mextraDark ">
+      <h1 class="text-center text-white">All Rights Reserved &copy Mextra</h1>
+    </footer>
+
+</body>
+</html>
