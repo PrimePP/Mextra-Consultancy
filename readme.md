@@ -20,7 +20,7 @@ Screen sizes
 - Figma
 - Personal Learnings in this project 
     - Tailwind CSS
-- Deployed on *Vercel*  **[ClickMe]()** 
+- Deployed on *Vercel*  **[ClickMe](https://mextra-consultancy.vercel.app/)** 
 *** 
 #### About Author
 ![AuthorImage](./circle-profile-pic.png)
